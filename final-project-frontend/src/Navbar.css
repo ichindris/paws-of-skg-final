@@ -1,0 +1,118 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px); /* Modern blurry glass effect */
+  border-bottom: 1px solid #f0f0f0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styling */
+.nav-logo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-text {
+  font-weight: 800;
+  letter-spacing: -1px;
+  font-size: 1.2rem;
+  color: #1a1a1a;
+}
+
+.logo-subtext {
+  font-weight: 300;
+  color: #777;
+}
+
+/* Nav Items */
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-item {
+  background: none;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 8px 0;
+  position: relative;
+}
+
+.nav-item:hover {
+  color: #000;
+}
+
+.nav-item.active {
+  color: #007bff;
+}
+
+/* Active Indicator Line */
+.nav-item.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #007bff;
+  border-radius: 2px;
+}
+
+/* Login Button - Minimalist Style */
+.login-trigger-btn {
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 25px; /* Rounded pill shape */
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.login-trigger-btn:hover {
+  background: #333;
+  transform: translateY(-1px);
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.logout-btn {
+  background: none;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}

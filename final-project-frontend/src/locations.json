@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Nea Paralia Dog Park",
+    "type": "Park",
+    "lat": 40.6121,
+    "lng": 22.9540,
+    "description": "Fenced area with water stations."
+  },
+  {
+    "id": 2,
+    "name": "Momo Asian Bar",
+    "type": "Cafe",
+    "lat": 40.6278,
+    "lng": 22.9460,
+    "description": "Pet-friendly indoor seating and dog menu."
+  },
+  {
+    "id": 3,
+    "name": "White Tower Plaza",
+    "type": "Landmark",
+    "lat": 40.6263,
+    "lng": 22.9484,
+    "description": "Great for walks, but keep on a leash!"
+  },
+  {
+    "id": 1,
+    "name": "Anatolia Hotel",
+    "type": "Accommodations",
+    "lat": 40.6405, "lng": 22.9365,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500",
+    "description": "Premium pet-friendly stay near the center."
+  },
+  {
+    "id": 3,
+    "name": "Hipsters Hotel",
+    "type": "Accommodations",
+    "lat": 40.6355, "lng": 22.9412,
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500",
+    "description": "Boutique stay in the heart of Ladadika."
+  },
+  {
+    "id": 4,
+    "name": "Blue Bottle Hotel",
+    "type": "Accommodations",
+    "lat": 40.6388, "lng": 22.9435,
+    "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=500",
+    "description": "Modern and cozy, welcoming all furry friends."
+  },
+  {
+    "id": 5,
+    "name": "Momo Asian Bar",
+    "type": "Going Out",
+    "lat": 40.6278, "lng": 22.9460,
+    "description": "Dog-friendly sushi spot."
+  }
+]
